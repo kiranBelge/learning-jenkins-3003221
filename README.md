@@ -26,9 +26,12 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 Open a browser to [localhost:8080](http://localhost:8080) and enter the initial admin password.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 JFROG install on redhat 8
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 wget -O jfrog-rpm-installer.tar.gz "https://releases.jfrog.io/artifactory/jfrog-prox/org/artifactory/pro/rpm/jfrog-platform-trial-prox/[RELEASE]/jfrog-platform-trial-prox-[RELEASE]-rpm.tar.gz"
 tar -xvzf jfrog-rpm-installer.tar.gz
 cd jfrog-platform-trial-pro*
